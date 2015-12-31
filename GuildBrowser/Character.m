@@ -9,6 +9,9 @@
     self = [super init];
     if (self)
     {
+        NSLog(@"Data Dic %@", data);
+        NSLog(@"name is: %@", data[@"name"]);
+
         _name = data[@"name"];
         _level = data[@"level"];
         _race = [WoWUtils raceFromRaceType:[data[@"race"] intValue]];

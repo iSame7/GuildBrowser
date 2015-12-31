@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
-@class Item;
 
 @interface Character : NSObject
 
