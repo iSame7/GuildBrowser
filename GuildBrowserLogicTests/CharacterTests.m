@@ -53,7 +53,6 @@
     _characterDetailJson = nil;
 }
 
-/*
 // 1
 - (void)testCreateCharacterFromDetailJson
 {
@@ -108,7 +107,7 @@
     XCTAssertEqualObjects(_testGuy.trinketItem2.name,@"Bone-Link Fetish", @"neck name is wrong");
     XCTAssertEqualObjects(_testGuy.rangedItem.name,@"Ironfeather Longbow", @"neck name is wrong");
 }
-*/
+
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
